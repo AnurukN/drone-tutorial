@@ -1,0 +1,21 @@
+# Core Drone Programming
+dronekit==2.9.2
+dronekit-sitl==3.3.0
+pymavlink==2.4.41
+
+# AI & Computer Vision
+anthropic>=0.40.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+ultralytics>=8.0.0      # YOLOv8 สำหรับ Object Detection
+Pillow>=10.0.0
+
+# Sensor & Data
+pyserial>=3.5
+scipy>=1.11.0
+matplotlib>=3.7.0
+
+# Utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+asyncio-mqtt>=0.16.0    # MQTT สำหรับ IoT/Drone comms
